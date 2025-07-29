@@ -202,8 +202,6 @@ Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 
 ## 👨‍💻 Auteur
 
-**NextGen Coding** - Architecture React avec Clean Architecture
+**Safwen Souissi** - Architecture React avec Clean Architecture
 
 ---
-
-⭐ Si ce projet vous a aidé, n'hésitez pas à le star sur GitHub !
