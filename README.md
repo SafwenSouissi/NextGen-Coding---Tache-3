@@ -1,44 +1,12 @@
-# React Hooks - Compteur Dynamique
+# React + Vite
 
-Un mini-projet pour apprendre les hooks React fondamentaux.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🎯 Objectif
-Créer un compteur dynamique utilisant le hook `useState` de React.
+Currently, two official plugins are available:
 
-## 🚀 Fonctionnalités
-- Compteur avec boutons + et -
-- Bouton Reset pour remettre à zéro
-- Interface moderne avec gradient
-- Pas d'auto-incrémentation
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## 🛠️ Technologies
-- React 18
-- Vite
-- CSS3 (gradients, animations)
+## Expanding the ESLint configuration
 
-## 📁 Structure
-```
-src/
-├── App.jsx          # Composant principal
-├── Counter.jsx      # Composant compteur
-├── App.css          # Styles
-└── index.css        # Styles globaux
-```
-
-## 🎮 Utilisation
-```bash
-npm install
-npm run dev
-```
-
-## 🎨 Hooks Utilisés
-- **useState** : Gestion de l'état du compteur
-
-## 📝 Apprentissage
-- Gestion d'état avec useState
-- Création de composants React
-- Manipulation d'événements
-- Styling moderne avec CSS
-
-
-Copyright 2025, Safwen Souissi
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
