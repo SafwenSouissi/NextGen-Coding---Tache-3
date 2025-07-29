@@ -1,0 +1,156 @@
+/* Styles pour la page d'accueil */
+
+.home-page {
+  min-height: 100vh;
+  height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.home-page__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-page__hero {
+  text-align: center;
+  margin-bottom: 40px;
+  color: white;
+  flex-shrink: 0;
+}
+
+.home-page__hero h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0 0 16px 0;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.home-page__subtitle {
+  font-size: 20px;
+  margin: 0;
+  opacity: 0.9;
+  font-weight: 300;
+}
+
+.home-page__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home-page__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.home-page__card {
+  height: 100%;
+}
+
+/* Styles pour le compteur */
+.counter {
+  text-align: center;
+}
+
+.counter__value {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 0 20px 0;
+  color: #2d3748;
+}
+
+.counter__actions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+/* Styles pour la liste des fonctionnalités */
+.features-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.features-list li {
+  padding: 8px 0;
+  border-bottom: 1px solid #e2e8f0;
+  font-size: 16px;
+  color: #4a5568;
+}
+
+.features-list li:last-child {
+  border-bottom: none;
+}
+
+/* Styles pour la grille d'informations */
+.info-grid {
+  display: grid;
+  gap: 12px;
+}
+
+.info-item {
+  padding: 8px 0;
+  border-bottom: 1px solid #e2e8f0;
+  font-size: 16px;
+  color: #4a5568;
+}
+
+.info-item:last-child {
+  border-bottom: none;
+}
+
+.info-item strong {
+  color: #2d3748;
+  margin-right: 8px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .home-page {
+    height: auto;
+    min-height: 100vh;
+  }
+  
+  .home-page__hero h1 {
+    font-size: 36px;
+  }
+  
+  .home-page__subtitle {
+    font-size: 18px;
+  }
+  
+  .home-page__grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .counter__actions {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-page__container {
+    padding: 0 16px;
+  }
+  
+  .home-page__hero h1 {
+    font-size: 28px;
+  }
+  
+  .home-page__subtitle {
+    font-size: 16px;
+  }
+} 
